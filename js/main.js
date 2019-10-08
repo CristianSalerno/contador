@@ -45,7 +45,7 @@ function displayEndTime(time) {
     const end = new Date(time);
     const hour = end.getHours();
     const minutes = end.getMinutes();
-    endTime.textContent = `Vuelvo a las ${hour}:${'0'+minutes}`;
+    endTime.textContent = `Vuelvo a las ${hour}:${+minutes}`;
 }
 
 
